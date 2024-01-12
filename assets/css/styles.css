@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.caixa-maior {
+    background: #198754;
+    opacity: 0.85;
+    border-radius: 25px;
+    padding: 20px;
+    width: 80%;
+    max-width: 450px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: beige;
+    color: gray;
+    width: calc(100% - 50px);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: beige;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+}
+
+.img-busca {
+    width: 20px;
+}
+
+.caixa-media{
+    margin-top: 20px;
+}
+
+.cidade-one {
+    display: flex;
+    justify-content: center;
+}
+
+.cidade {
+color: #fff;
+font-size: 28px;
+font-weight: 300; 
+font-weight: bold;
+}
+
+.temp-one {
+    display: flex;
+    justify-content: center;
+}
+
+.temp {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px; 
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clima {
+    text-transform: capitalize;
+    color: #fff;
+    
+}
+
+.umidade-one {
+    display: flex;
+    justify-content: center;
+}
+
+.umidade {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+}
+
